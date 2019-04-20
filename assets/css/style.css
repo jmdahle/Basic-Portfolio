@@ -1,0 +1,15 @@
+#nav {
+    font-weight: bold;
+    float: right;
+}
+
+.nav-menu-item {
+    width: 100px;
+    text-align: center;
+    color: #444444;
+}
+
+#my-photo {
+    width: 200px;
+    height: 200px;
+}
