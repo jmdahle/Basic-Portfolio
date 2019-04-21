@@ -7,6 +7,11 @@ a {
     color: darkgrey;
 }
 
+.nav-menu-item {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,7 +20,7 @@ h1 {
 
 #main-header {
     width: 100%;
-    overflow: auto;
+    border-bottom: 10px solid darkrey; /* not working */
     background-color: yellow;
 }
 
@@ -41,6 +46,7 @@ h1 {
 
 #main-content {
     background-color: yellow;
+    background-image: url(../images/circuit.png) /* url is relative to location of the stylesheet! */
 }
 #content-container {
     clear: both;
@@ -61,18 +67,3 @@ h1 {
     position: fixed;
     bottom: 0;
 }
-/* #nav {
-    font-weight: bold;
-    float: right;
-}
-
-.nav-menu-item {
-    width: 100px;
-    text-align: center;
-    color: #444444;
-}
-
-#my-photo {
-    width: 200px;
-    height: 200px;
-} */
