@@ -1,4 +1,67 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 14pt;
+}
+
+a {
+    color: darkgrey;
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+#main-header {
+    width: 100%;
+    overflow: auto;
+    background-color: yellow;
+}
+
+#title-container {
+    width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+#my-name {
+    background-color: teal;
+    color: white;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
 #nav {
+    float: right;
+    background-color: blue;
+}
+
+#main-content {
+    background-color: yellow;
+}
+#content-container {
+    clear: both;
+    width: 960px;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+#my-photo {
+    float: left;
+}
+
+.main-h1 {
+    color: teal;
+}
+
+.main-footer {
+    position: fixed;
+    bottom: 0;
+}
+/* #nav {
     font-weight: bold;
     float: right;
 }
@@ -12,4 +75,4 @@
 #my-photo {
     width: 200px;
     height: 200px;
-}
+} */
