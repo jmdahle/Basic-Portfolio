@@ -7,8 +7,8 @@ a {
     color: darkgrey;
 }
 
-.nav-menu-item {
-    display: inline-block;
+a.nav-menu-item {
+    display: inline-block; /* this is needed to provide a fixed width for <a> elements */
     text-align: center;
     width: 100px;
 }
@@ -35,24 +35,35 @@ h1 {
     background-color: teal;
     color: white;
     width: 250px;
-    text-align: center;
+    /* text-align: center; */
     float: left;
 }
 
 #nav {
     float: right;
     background-color: blue;
+    margin: 30px 0;
 }
 
 #main-content {
+    display: inline-block;
+    width: 100%;
     background-color: yellow;
-    background-image: url(../images/circuit.png) /* url is relative to location of the stylesheet! */
+    background-image: url(../images/circuit.png) 
+    /* url for the image is relative to location of the stylesheet! */
 }
 #content-container {
     clear: both;
     width: 960px;
     background-color: orange;
     margin: 0 auto;
+}
+
+#divider {
+    width: 96%;
+    margin: 0 auto;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 15px;
 }
 
 #my-photo {
@@ -63,7 +74,23 @@ h1 {
     color: teal;
 }
 
-.main-footer {
+.padded {
+    padding: 2%;
+}
+
+.main-para {
+    line-height: 150%;
+    margin: 0px;
+}
+
+#main-footer {
     position: fixed;
+    text-align: center;
+    color: #CCCCCC;
+    background-color: darkgrey;
+    width: 100%;
+    border-top: 2px solid teal;
+    padding-top: 30px;
+    font-size: 10pt;
     bottom: 0;
 }
