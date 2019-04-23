@@ -1,96 +1,104 @@
-* {
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-    font-size: 14pt;
-}
-
-a {
-    color: darkgrey;
-}
-
-a.nav-menu-item {
-    display: inline-block; /* this is needed to provide a fixed width for <a> elements */
-    text-align: center;
-    width: 100px;
+*   {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    box-sizing: border-box;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20pt;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-#main-header {
-    width: 100%;
-    border-bottom: 3px solid darkgrey;
-    background-color: yellow;
+header, #title-content, #body-content {
+    background-color: #ffffff;
 }
 
-#title-container {
+header {
+    border-bottom: 2px solid #cccccc;
+}
+
+body {
+    margin: 0px;
+    background-image: url('../images/circuit.png')
+}
+
+#title-content, #body-content {
     width: 960px;
-    overflow: auto;
     margin: 0 auto;
-    background-color: orange;
+    position: relative;
 }
 
-#my-name {
-    background-color: teal;
-    color: white;
-    width: 250px;
-    /* text-align: center; */
-    float: left;
+#title-content {
+    height: 60px;
+}
+
+#title-text, #nav {
+    position: absolute;
+}
+
+#title-text {
+    left: 0px;
+    bottom: 0px;
+    background-color: #4aaaa5;
+    height: 100%;
+}
+
+#myname {
+    margin: 0px;
+    padding: 10px;
+    color: #ffffff;
 }
 
 #nav {
-    float: right;
-    background-color: blue;
-    margin: 30px 0;
+    right: 0px;
+    bottom: 10px;
 }
 
-#main-content {
-    display: inline-block;
-    width: 100%;
-    background-color: yellow;
-    background-image: url(../images/circuit.png) 
-    /* url for the image is relative to location of the stylesheet! */
-}
-#content-container {
-    clear: both;
-    width: 960px;
-    background-color: orange;
-    margin: 0 auto;
+#body-heading {
+    color: #4aaaa5;
 }
 
-#divider {
-    width: 96%;
-    margin: 0 auto;
-    border-bottom: 1px solid darkgrey;
-    margin-bottom: 15px;
+#body-wrapper {
+    padding: 40px 0px;
+}
+
+#body-content {
+    padding: 20px;
 }
 
 #my-photo {
     float: left;
+    margin-right: 15px;
 }
 
-.main-h1 {
-    color: teal;
+.navitem {
+    display: inline-block; /* this is needed to provide a fixed width for <a> elements */
+    text-align: center;
+    width: 80px;
 }
 
-.padded {
-    padding: 2%;
+a.navitem:hover {
+    background-color: #4aaaa5;
 }
 
-.main-para {
-    line-height: 150%;
-    margin: 0px;
+.body-para {
+    line-height: 170%;
 }
 
-#main-footer {
+#horiz-rule {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+footer {
     position: fixed;
     text-align: center;
-    color: #CCCCCC;
-    background-color: darkgrey;
+    background-color: #666666;
+    color: #dddddd;
     width: 100%;
-    border-top: 2px solid teal;
+    border-top: 4px solid #4aaaa5;
     padding-top: 30px;
     font-size: 10pt;
-    bottom: 0;
+    bottom: 0px;
 }
