@@ -60,6 +60,12 @@ body {
 #body-wrapper {
     padding: 40px 0px;
 }
+#horiz-rule {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 15px;
+}
 
 #body-content {
     padding: 20px;
@@ -84,11 +90,20 @@ a.navitem:hover {
     line-height: 170%;
 }
 
-#horiz-rule {
+.textinput {
     width: 100%;
-    margin: 0 auto;
-    border-bottom: 2px solid #dddddd;
-    margin-bottom: 15px;
+    font-size: 12pt;
+}
+
+.multiline {
+    height: 200px;
+}
+
+.btn {
+    font-size: 12pt;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
 }
 
 footer {
