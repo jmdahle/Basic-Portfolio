@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1, a.portfolio-item-link {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -84,7 +84,9 @@ body {
 
 a.navitem:hover {
     background-color: #4aaaa5;
+    color: #ffffff;
 }
+
 
 .body-para {
     line-height: 170%;
@@ -106,13 +108,38 @@ a.navitem:hover {
     padding: 10px 20px;
 }
 
+.col1of3, .col2of3, .col3of3 {
+    width: 33.3%
+}
+
+.portfolio-item {
+    width: 240px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.portfolio-item-link {
+    display: inline-block;
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16pt;
+    left: -244px;
+    top: -50px;
+
+}
+
 footer {
     position: fixed;
     text-align: center;
     background-color: #666666;
     color: #dddddd;
     width: 100%;
-    border-top: 4px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     padding-top: 30px;
     font-size: 10pt;
     bottom: 0px;
