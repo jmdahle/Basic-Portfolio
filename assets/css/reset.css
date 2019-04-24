@@ -90,7 +90,7 @@ video {
 
   /* Positioning */
   margin: 0;
-  font: inherit;
+  /* font: inherit; */
 
   /* Typography */
   font-size: 100%;
