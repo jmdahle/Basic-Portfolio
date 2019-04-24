@@ -8,6 +8,10 @@ h1, a.portfolio-item-link {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+h1 {
+    font-size: 20pt;
+}
+
 header, #title-content, #body-content {
     background-color: #ffffff;
 }
@@ -17,7 +21,7 @@ header {
 }
 
 body {
-    margin: 0px;
+    /* margin: 0px; */
     background-image: url('../images/circuit.png')
 }
 
@@ -76,9 +80,14 @@ body {
     margin-right: 15px;
 }
 
+.frm-para {
+    margin-top: 16px;
+}
+
 .navitem {
     display: inline-block; /* this is needed to provide a fixed width for <a> elements */
     text-align: center;
+    text-decoration: none;
     width: 80px;
 }
 
