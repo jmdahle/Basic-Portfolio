@@ -113,7 +113,7 @@ a.navitem:hover {
 }
 
 .portfolio-item {
-    width: 240px;
+    width: 280px;
     height: 200px;
     border: 1px solid red;
 }
@@ -123,14 +123,18 @@ a.navitem:hover {
     position: relative;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 240px;
+    width: 280px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     font-size: 16pt;
-    left: -244px;
-    top: -50px;
+    top: -100px;
 
+}
+
+.portfolio-item-link:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
 }
 
 footer {
