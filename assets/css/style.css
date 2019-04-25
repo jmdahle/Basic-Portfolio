@@ -89,6 +89,8 @@ body {
     text-align: center;
     text-decoration: none;
     width: 80px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 a.navitem:hover {
@@ -124,7 +126,6 @@ a.navitem:hover {
 .portfolio-item {
     width: 280px;
     height: 200px;
-    border: 1px solid red;
 }
 
 .portfolio-item-link {
@@ -132,6 +133,7 @@ a.navitem:hover {
     position: relative;
     background-color: #4aaaa5;
     color: #ffffff;
+    text-decoration: none;
     width: 280px;
     padding-top: 20px;
     padding-bottom: 20px;
