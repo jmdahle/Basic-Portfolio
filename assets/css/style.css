@@ -14,9 +14,9 @@ h1 {
 }
 
 ul {
-    list-style-type: disc; /* restores the bullet for line items */
+    list-style-type: disc; /* restores the bullet for line items */  
+    list-style-position: inside;
 }
-
 
 header, #title-content, #body-content {
     background-color: #ffffff;
@@ -105,7 +105,7 @@ a.navitem:hover {
 }
 
 
-.body-para, ul {
+.body-para, ul, li {
     line-height: 170%;
     margin-bottom: 1em; /* restores spacing after the tag */
 }
